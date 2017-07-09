@@ -10,6 +10,15 @@ public class City extends DataSupport {
     private int id;
     private int cityCode;
     private String cityName;
+    private int privonceId;
+
+    public int getPrivonceId() {
+        return privonceId;
+    }
+
+    public void setPrivonceId(int privonceId) {
+        this.privonceId = privonceId;
+    }
 
     public int getId() {
         return id;
